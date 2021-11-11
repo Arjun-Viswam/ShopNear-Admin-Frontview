@@ -1,0 +1,150 @@
+
+.lgform {
+    float: left;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 50px 30px;
+  }
+  .lgform {
+    margin-top: 27px;
+    margin-bottom: 0;
+    float: left;
+    width: 100%;
+  }
+  .formgroup{
+    margin-top: 27px;
+    margin-bottom: 0;
+    float: left;
+    width: 100%;   
+  }
+  .mainheading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  .mainheading h2 {
+    font-size: 24px;
+    color: #242424;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    font-family: roboto, sans-serif;
+  }
+  
+  .lineshape1 {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .lineshape1 .heading-line {
+    width: 50px;
+    height: 2px;
+  }
+    .lrbtn {
+      font-size: 14px;
+      font-weight: 500;
+      font-family: roboto, sans-serif;
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+      border-radius: 3px;
+      background-color: #fffb04;
+      float: left;
+      width: 100%;
+      height: 50px;
+      border: 0;
+      margin: 30px 0 0;
+      padding: 15px 0;
+      text-align: center;
+    }
+    .lrbtn:hover {
+      color: #fff !important;
+      background-color: #000000;
+    }
+    .label15 {
+      font-size: 14px;
+      font-family: roboto, sans-serif;
+      font-weight: 500;
+      color: #242424;
+      margin-bottom: 10px;
+      line-height: 24px;
+    }
+    .jobinput {
+      font-size: 14px;
+      width: 100%;
+      height: 40px;
+      font-family: roboto, sans-serif;
+      border: 1px solid #e5e5e5;
+      border-radius: 3px;
+      color: #242424;
+    }
+  .contentCenter {
+      display: flex;
+      justify-content: center;
+  }
+  .container123{
+      padding: 8rem;
+  }
+  .checkbox{
+      padding-top: 5px;
+  }
+  .done140 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+    color: #242424;
+    line-height: 24px;
+  }
+  .done140 a {
+    color:  #000000;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .done140 a:hover {
+    color: #fffb04 !important;
+  }
+  .done140 a i {
+    margin-left: 5px;
+  }
+  .done146 {
+    float: left;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+    color: #242424;
+    line-height: 24px;
+  }
+  .done146 a {
+    color: #020202;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .done146 a:hover {
+    color: #fffb04 !important;
+  }
+  .done147 {
+    float: right;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: roboto, sans-serif;
+    color: #242424;
+    line-height: 24px;
+  }
+  .done147 a {
+    color: #242424;
+    font-weight: 400;
+  }
+  .done147 a:hover {
+    color: #fffb04 !important;
+  }
+  .done146 i {
+    margin-left: 5px;
+  }
+  .error{
+    color: red;
+    text-decoration: none;
+  }
