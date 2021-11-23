@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react'
 import style from './AppSidebar.module.css'
-import { FaBars, icons } from 'react-icons/fa'
+// import { FaBars, icons } from 'react-icons/fa'
 import Cookies from "universal-cookie";
 
 function AppSidebar() {
@@ -38,10 +38,10 @@ function AppSidebar() {
             <a href="#">Dashboard</a>
         </li>
         <li>
-            <a href="#">User Management</a>
+            <a href="/admin/user_management">User Management</a>
         </li>
         <li>
-            <a href="#">Shop Management</a>
+            <a href="/admin/shop_management">Shop Management</a>
         </li>
         <li>
             <a href="#">Report</a>
@@ -55,7 +55,7 @@ function AppSidebar() {
     <div className={style.container_fluid}>
     <div className={style.topnav}>
         <div>
-        <span onClick={OpenToggle} ><FaBars/></span>
+        {/* <span onClick={OpenToggle} ><FaBars/></span> */}
         </div>
         <span className={style.noHover} onClick={Logout} style={{ marginRight: "30px"}} >Logout</span>
       </div>

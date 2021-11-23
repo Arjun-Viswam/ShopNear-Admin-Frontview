@@ -5,7 +5,9 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import cookie from "universal-cookie";
 import { useHistory } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 const server = "http://localhost:5550";
+
 
 function Login() {
   const Cookies = new cookie();
@@ -33,7 +35,7 @@ function Login() {
         setLoginError(true)
       }else {
       Cookies.set("Admin_token", data.token);
-      localStorage.setItem("shopname", data.data.user.shopname);
+      console.log(data.data.user.objectId);
       history.push("/admin");
       }
     });

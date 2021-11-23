@@ -1,0 +1,18 @@
+.table{
+    padding: 53px 59px 0px 298px;
+}
+.title{
+font-weight: 700;
+}
+.ban{
+    float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 0px 18px;
+text-decoration: none;
+font-size: 17px;
+cursor: pointer;
+}
+.AppSidebar_topnav__zT0GH span:hover {
+    background-color: none;
+}
